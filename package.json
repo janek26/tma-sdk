@@ -1,5 +1,5 @@
 {
-  "name": "twa-sdk",
+  "name": "tma-sdk",
   "version": "7.4.0",
   "main": "dist/index.js",
   "sideEffects": [
@@ -24,7 +24,7 @@
       ]
     }
   },
-  "repository": "https://github.com/janek26/twa-sdk.git",
+  "repository": "https://github.com/janek26/tma-sdk.git",
   "keywords": [
     "telegram",
     "telegram web apps",

@@ -5,7 +5,7 @@ React component for [Telegram Web Apps (TWA)](https://core.telegram.org/bots/web
 ## Installation
 
 ```bash
-npm i twa-sdk
+npm i tma-sdk
 ```
 
 ## Motivation
@@ -24,7 +24,7 @@ It's not the best way to write code, especially if you use libraries like React.
 This package exports React component that wraps TWA BackButton SDK:
 
 ```js
-import { BackButton } from "twa-sdk/react";
+import { BackButton } from "tma-sdk/react";
 
 <BackButton onClick={() => window.history.back()} />;
 ```

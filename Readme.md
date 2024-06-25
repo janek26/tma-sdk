@@ -1,11 +1,11 @@
 ## SDK
 
-[![npm version](https://img.shields.io/npm/v/twa-sdk)](https://www.npmjs.com/package/twa-sdk)
+[![npm version](https://img.shields.io/npm/v/tma-sdk)](https://www.npmjs.com/package/tma-sdk)
 
 npm package for [Telegram Web Apps (TWA)](https://core.telegram.org/bots/webapps) SDK.
 
 ```
-npm i twa-sdk
+npm i tma-sdk
 ```
 
 ### Motivation
@@ -29,7 +29,7 @@ Telegram distributes SDK via [link](https://core.telegram.org/bots/webapps#initi
 This package allows to work with SDK as with a npm package:
 
 ```js
-import WebApp from "twa-sdk";
+import WebApp from "tma-sdk";
 
 WebApp.showAlert("Hey there!");
 ```
