@@ -1,6 +1,6 @@
 {
-  "name": "@twa-dev/sdk",
-  "version": "7.0.0",
+  "name": "twa-sdk",
+  "version": "7.3.0",
   "main": "dist/index.js",
   "sideEffects": [
     "./dist/telegram-web-apps.js"
@@ -24,7 +24,7 @@
       ]
     }
   },
-  "repository": "https://github.com/twa-dev/sdk.git",
+  "repository": "https://github.com/janek26/twa-sdk.git",
   "keywords": [
     "telegram",
     "telegram web apps",
@@ -32,7 +32,7 @@
     "sdk",
     "bot"
   ],
-  "author": "Artur Stambultsian <bumbledos@gmail.com>",
+  "author": "Artur Stambultsian <bumbledos@gmail.com>, Janek <janek.rahrt@me.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.0.19",
@@ -50,9 +50,6 @@
     "test": "eslint --ext .ts,.tsx ./",
     "build": "rm -rf dist && yarn test && tsc --outDir dist/",
     "deploy": "yarn build && yarn release - --tag --commit --push --public"
-  },
-  "dependencies": {
-    "@twa-dev/types": "^7.0.0"
   },
   "peerDependencies": {
     "react": ">=16.0.0"
